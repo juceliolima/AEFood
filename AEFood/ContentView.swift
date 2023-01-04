@@ -61,9 +61,9 @@ struct ContentView: View {
     }
     
     func autenticaUsuario(usuario: String, senha: String){
-        if(usuario.lowercased() == "jucelio"){
+        if(usuario.lowercased() == "teste"){
             wrongUsername = 0;
-            if(senha.lowercased() == "bonito"){
+            if(senha.lowercased() == "teste"){
                 wrongPassword = 0
                 showingLoggingScreen = true
             }else{
